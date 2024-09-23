@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body{
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+
+
+.container{
+    background-color:#1a1a19;
+    width:480px;
+    height: 750px;
+    border-radius: 20px;
+}
+
+.img-container img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 160px;
+    margin-top: 50px;
+
+  }
+
+  h1{
+    color:white;
+    margin-left: 120px;
+  }
+
+  h3{
+    color: yellowgreen;
+    margin-left: 120px;
+  }
+
+  h4{
+    color: rgb(212, 206, 206);
+    margin-left: 90px;
+    font-family: "Inconsolata", monospace;
+    margin-top: 30px;
+  }
+
+  .button {
+    background-color: #444;
+    color: rgb(206, 200, 200);
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    width: 350px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+
+.profiles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left:50px;
+    margin-top: 30px;
+}
+
+
+.button:hover {
+    background-color: #555; 
+}
